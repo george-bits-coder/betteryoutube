@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   	<link rel="stylesheet"
+		href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+
+<style>
+*{
+	box-sizing:border-box;  
+}
+ body{
+ 	margin:0;
+  height:100vh;
+  width:100vw;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+   justify-content:center;
+   color:#555;
+   background-color:#ecf0f3;
+   
+ }
+  .signin-card{
+  	display:flex;
+    flex-direction:column;
+    box-shadow:12px 12px 18px #cbced1,
+    -12px -12px 18px #fff;
+    padding:50px;
+    border-radius:20px;
+  }
+  .enter-detail form{
+  	display:flex;
+    gap:20px;
+    flex-direction:column;
+   
+  }
+  .log-head{
+  	text-align:center;
+  }
+  .log-img{
+  	
+  	border:5px solid white;
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    overflow:hidden;
+    text-align:center;
+    position:relative;
+    margin:auto;
+    box-shadow:5px 5px 3px #cbced1;
+  }
+    .log-img img{
+    	height:100px;
+      position : absolute;
+      left:-21px;
+      top:-22px;
+    }
+   input{
+  	cursor:pointer;
+    border:0;
+     backgrond-color:;
+  }
+ 
+  #login input[type="text"]{
+  	height :50px;
+    border-radius:20px;
+    padding:10px;
+    color:grey;
+    box-shadow:inset 5px 5px 5px #cbced1;
+  	
+  }
+    #login input[type="password"]{
+  	height :50px;
+    border-radius:20px;
+    padding:10px;
+          box-shadow:inset 3px 5px 5px #cbced1;
+      
+    color:grey;
+
+      
+    
+  	
+  }
+    #login input[type="submit"]{
+    		height :35px;
+    border-radius:20px;
+    padding:10px;
+      font-size:20px;
+      line-height:10px;
+      text-align:center;
+  	  border:1px;
+      background-color:white;
+      background-color:#00BFFF;
+      color:white;
+                box-shadow:3px 0 5px #cbced1;
+
+    }
+  
+ .enter-detail > button{
+ 	cursor:pointer;
+   border:none;
+   color:grey;
+ }
+</style>
+  </head>
+  <body>
+<div class="signin-card">
+  <div class = "log-img">
+    <img src = "https://image.shutterstock.com/image-vector/red-button-simple-play-icon-260nw-1136309210.jpg">
+  </div>
+  <div class = "log-head">
+    <p> BetterYoutube</p>
+  </div>
+  <div  class = "enter-detail">
+    <form id="login">
+     
+      <input type = "text" placeholder="UserName"> 
+           <input type = "password" placeholder="Password">
+                 <input type = "submit" value="login">
+    </form>
+    <button> Forgot password?</button>
+      <button> Create New Account</button>  
+
+  </div>
+  
+</div>
+  </body>
+<script>
+
+</script>
